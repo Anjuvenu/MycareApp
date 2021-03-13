@@ -1,0 +1,36 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/colour"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    < <androidx.appcompat.widget.AppCompatButton
+    android:layout_margin="20dp"
+    android:background="@drawable/buttonstyle"
+    android:textColor="#F1F2F3"
+    android:textSize="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="view profile"
+    android:onClick=""/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="20dp"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#F1F2F3"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view blood report"
+        android:onClick=""/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="20dp"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#F1F2F3"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view daily report"
+        android:onClick="@+id/">
+
+
+</LinearLayout>
